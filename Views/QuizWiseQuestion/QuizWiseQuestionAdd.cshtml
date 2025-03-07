@@ -1,0 +1,183 @@
+﻿<main id="main" class="main">
+    <div class="container">
+        <div class="pagetitle">
+            <h1>Quiz wise Question Details</h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Dashboard" asp-action="DashboardView">Home</a></li>
+                    <li class="breadcrumb-item">Quiz wise Question Add</li>
+                    <li class="breadcrumb-item active">Quiz wise Question Details</li>
+                </ol>
+            </nav>
+        </div><!-- End Page Title -->
+
+        @* <div class="card mb-4"> *@
+        @*     <div class="card-header"> *@
+        @*         <h5 class="card-title">Select Quiz</h5> *@
+        @*     </div> *@
+        @*     <div class="card-body"> *@
+        @*         <form class="row g-3"> *@
+        @*             @* <div class="col-md-4"> *@
+        @*             @*     <input type="text" class="form-control" placeholder="Select Quiz"> *@
+        @*             @* </div> *@
+                    
+        @*         </form> *@
+        @*     </div> *@
+        @* </div> *@
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Quiz wise Question Details</h5>
+                <p>
+                    @* <label for="quizName" class="form-label">Select Quiz</label> *@
+                    <div class="row">
+                        <div class="col-6">
+                            <strong><span class="text-danger">*</span>Quiz Name:</strong>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>-- Select Quiz</option>
+                                <option>One</option>
+                                <option>Two</option>
+                                <option>Three</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <strong>Total Questions in Quiz:</strong>
+                        </div>
+                    </div>
+                </p>
+
+                <div class="d-flex justify-content-end mb-3">
+                    <button class="btn btn-danger">Delete Selected</button>
+                    <a class="btn btn-success ms-2" id="addQuestionBtn" asp-controller="Question" asp-action="QuestionAdd">Add New Question</a>
+                </div>
+
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Question</th>
+                            <th>Option A</th>
+                            <th>Option B</th>
+                            <th>Option C</th>
+                            <th>Option D</th>
+                            <th>Correct Option</th>
+                            <th>Marks</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>What is the capital of France?</td>
+                            <td>Berlin</td>
+                            <td>Madrid</td>
+                            <td>Paris</td>
+                            <td>Lisbon</td>
+                            <td>C</td>
+                            <td>1</td>
+                            <td><a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>What is the currency of Japan?</td>
+                            <td>Dollar</td>
+                            <td>Yen</td>
+                            <td>Peso</td>
+                            <td>Rupee</td>
+                            <td>B</td>
+                            <td>1</td>
+                            <td><a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>What is the longest river in the world?</td>
+                            <td>Amazon</td>
+                            <td>Nile</td>
+                            <td>Yangtze</td>
+                            <td>Mississippi</td>
+                            <td>B</td>
+                            <td>3</td>
+                            <td><a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>What is the national animal of India?</td>
+                            <td>Lion</td>
+                            <td>Elephant</td>
+                            <td>Tiger</td>
+                            <td>Leopard</td>
+                            <td>C</td>
+                            <td>3</td>
+                            <td><a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Which continent has the largest population?</td>
+                            <td>Africa</td>
+                            <td>Asia</td>
+                            <td>Europe</td>
+                            <td>South America</td>
+                            <td>B</td>
+                            <td>3</td>
+                            <td><a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Which planet is known as the Red Planet?</td>
+                            <td>Earth</td>
+                            <td>Mars</td>
+                            <td>Jupiter</td>
+                            <td>Venus</td>
+                            <td>B</td>
+                            <td>2</td>
+                            <td><a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Which year did World War II end?</td>
+                            <td>1942</td>
+                            <td>1945</td>
+                            <td>1948</td>
+                            <td>1950</td>
+                            <td>A</td>
+                            <td>1</td>
+                            <td><a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Who discovered gravity?</td>
+                            <td>Newton</td>
+                            <td>Einstein</td>
+                            <td>Galileo</td>
+                            <td>Kepler</td>
+                            <td>A</td>
+                            <td>2</td>
+                            <td><a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Who painted the Mona Lisa?</td>
+                            <td>Michelangelo</td>
+                            <td>Da Vinci</td>
+                            <td>Van Gogh</td>
+                            <td>Picasso</td>
+                            <td>B</td>
+                            <td>3</td>
+                            <td><a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Who wrote the play "Romeo and Juliet"?</td>
+                            <td>Shakespeare</td>
+                            <td>Moliere</td>
+                            <td>Tennessee Williams</td>
+                            <td>Homer</td>
+                            <td>A</td>
+                            <td>1</td>
+                            <td><a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>

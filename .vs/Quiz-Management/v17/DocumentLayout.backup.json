@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Quiz_Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83CBD1-FF17-4B67-BEEA-FAB7B0DFB36A}|Quiz-Management.csproj|d:\\quiz_management\\views\\question\\question.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE83CBD1-FF17-4B67-BEEA-FAB7B0DFB36A}|Quiz-Management.csproj|solutionrelative:views\\question\\question.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE83CBD1-FF17-4B67-BEEA-FAB7B0DFB36A}|Quiz-Management.csproj|d:\\quiz_management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE83CBD1-FF17-4B67-BEEA-FAB7B0DFB36A}|Quiz-Management.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Question.cshtml",
+              "DocumentMoniker": "D:\\Quiz_Management\\Views\\Question\\Question.cshtml",
+              "RelativeDocumentMoniker": "Views\\Question\\Question.cshtml",
+              "ToolTip": "D:\\Quiz_Management\\Views\\Question\\Question.cshtml*",
+              "RelativeToolTip": "Views\\Question\\Question.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T13:49:05.836Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Quiz_Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Quiz_Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T11:41:26.123Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
