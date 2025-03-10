@@ -9,109 +9,105 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuizeManagement
 build_property.RootNamespace = QuizeManagement
-build_property.ProjectDir = C:\Users\parma\Desktop\QuizManagement\QuizeManagement\
+build_property.ProjectDir = C:\Users\parma\Desktop\ASP.NET-Quiz\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\parma\Desktop\QuizManagement\QuizeManagement
+build_property.MSBuildProjectDirectory = C:\Users\parma\Desktop\ASP.NET-Quiz
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Dashboard/DashboardView.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Dashboard/DashboardView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib2FyZFZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Home/Index.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Home/Privacy.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/QuestionLevel/QuestionLevelAddEdit.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/QuestionLevel/QuestionLevelAddEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25MZXZlbFxRdWVzdGlvbkxldmVsQWRkRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/QuestionLevel/QuestionLevelList.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/QuestionLevel/QuestionLevelList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25MZXZlbFxRdWVzdGlvbkxldmVsTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Question/QuestionAddEdit.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Question/QuestionAddEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cUXVlc3Rpb25BZGRFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Question/QuestionList.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Question/QuestionList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cUXVlc3Rpb25MaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/QuizWiseQuestion/QuizWiseQuestionAdd.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/QuizWiseQuestion/QuizWiseQuestionAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpeldpc2VRdWVzdGlvblxRdWl6V2lzZVF1ZXN0aW9uQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/QuizWiseQuestion/QuizWiseQuestionAddTemp.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/QuizWiseQuestion/QuizWiseQuestionAddTemp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpeldpc2VRdWVzdGlvblxRdWl6V2lzZVF1ZXN0aW9uQWRkVGVtcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/QuizWiseQuestion/QuizWiseQuestionList.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/QuizWiseQuestion/QuizWiseQuestionList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpeldpc2VRdWVzdGlvblxRdWl6V2lzZVF1ZXN0aW9uTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Quiz/QuizAddEdit.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Quiz/QuizAddEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxRdWl6QWRkRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Quiz/QuizList.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Quiz/QuizList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxRdWl6TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Shared/Error.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Shared/_LayoutRegisterLoginLogout.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Shared/_LayoutRegisterLoginLogout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRSZWdpc3RlckxvZ2luTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/UserProfile/UserFAQ.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/UserProfile/UserFAQ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcVXNlckZBUS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/UserProfile/UserProfile.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/UserProfile/UserProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcVXNlclByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Users/Login.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Users/Register.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Users/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Users/UserAddEdit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcVXNlckFkZEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Users/UsersView.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Users/UsersView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcVXNlcnNWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/_ViewImports.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/_ViewStart.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/parma/Desktop/QuizManagement/QuizeManagement/Views/Shared/_Layout.cshtml]
+[C:/Users/parma/Desktop/ASP.NET-Quiz/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-54ype239h0

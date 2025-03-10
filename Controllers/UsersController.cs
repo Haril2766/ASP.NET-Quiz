@@ -15,39 +15,6 @@ namespace QuizeManagement.Controllers
             configuration = _configuration;
         }
 
-        public IActionResult UserAddEdit(int UserID)
-        {
-
-            string connectionString = configuration.GetConnectionString("ConnectionString");
-            SqlConnection Connection = new SqlConnection(connectionString);
-            Connection.Open();
-            SqlCommand command = Connection.CreateCommand();
-            command.CommandType = CommandType.StoredProcedure;
-            command.CommandText = "PR_MST_User_SelectByID";
-            command.Parameters.AddWithValue("@UserID", UserID);
-            SqlDataReader reader = command.ExecuteReader();
-            DataTable datatable = new DataTable();
-            datatable.Load(reader);
-            UserModel model = new UserModel();
-            foreach (DataRow row in datatable.Rows)
-            {
-                model.UserID = Convert.ToInt32(row["ID"]);
-                model.UserName = @row["UserName"].ToString();
-                //model.QuestionID = Convert.ToInt32(@row["QuestionID"]);
-                //model.QuestionText = @row["QuestionText"].ToString();
-                //model.OptionA = @row["OptionA"].ToString();
-                //model.OptionB = @row["OptionB"].ToString();
-                //model.OptionC = @row["OptionC"].ToString();
-                //model.OptionD = @row["OptionD"].ToString();
-                //model.QuestionLevel = @row["QuestionLevel"].ToString();
-                //model.QuestionMarks = Convert.ToInt32(@row["QuestionMarks"]);
-                //model.CorrectOption = @row["CorrectOption"].ToString();
-                //model.QuestionLevelID = Convert.ToInt32(@row["QuestionLevelID"]);
-                //model.UserID = Convert.ToInt32(@row["UserID"]);
-            }
-            return View("UserAddEdit", model);
-        }
-
         #region User List
         public IActionResult UsersView()
         {

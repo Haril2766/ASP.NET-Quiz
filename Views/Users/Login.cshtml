@@ -32,13 +32,13 @@
                     <div class="col-12">
                       <label for="yourUsername" class="form-label">Username</label>
                       <input type="text" asp-for="UserName" name="username" class="form-control" id="yourUsername" required>
-                      @* <span asp-validation-for="UserName" class="text-danger"></span> *@
+                       <span asp-validation-for="UserName" class="text-danger"></span> 
                     </div>
 
                     <div class="col-12">
                       <label for="yourPassword" class="form-label">Password</label>
                       <input type="password" asp-for="Password" name="password" class="form-control" id="yourPassword" required>
-                      @* <span asp-validation-for="Password" class="text-danger"></span> *@
+                        <span asp-validation-for="Password" class="text-danger"></span>  
                     </div>
 
                     <div class="col-12">
@@ -75,3 +75,16 @@
 
     </div>
   </main><!-- End #main -->
+
+                <script>
+                    <script>
+    $(document).ready(function () {
+        $("form").submit(function (event) {
+            if (!$("form").valid()) {
+                event.preventDefault(); // Prevent form submission if validation fails
+            }
+        });
+    });
+</script>
+
+                </script>

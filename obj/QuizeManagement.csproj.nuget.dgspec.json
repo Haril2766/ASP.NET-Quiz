@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\parma\\Desktop\\QuizManagement\\QuizeManagement\\QuizeManagement.csproj": {}
+    "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\QuizeManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\parma\\Desktop\\QuizManagement\\QuizeManagement\\QuizeManagement.csproj": {
+    "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\QuizeManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\parma\\Desktop\\QuizManagement\\QuizeManagement\\QuizeManagement.csproj",
+        "projectUniqueName": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\QuizeManagement.csproj",
         "projectName": "QuizeManagement",
-        "projectPath": "C:\\Users\\parma\\Desktop\\QuizManagement\\QuizeManagement\\QuizeManagement.csproj",
+        "projectPath": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\QuizeManagement.csproj",
         "packagesPath": "C:\\Users\\parma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\parma\\Desktop\\QuizManagement\\QuizeManagement\\obj\\",
+        "outputPath": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.6.1, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.9.0, )"

@@ -12,7 +12,7 @@ namespace QuizeManagement.Models
         public string Password { get; set; }
         [Required(ErrorMessage = "Email is Required")]
         public string Email { get; set; }
-        //[Required(ErrorMessage = "Mobile Number is Required")]
+        [Required(ErrorMessage = "Mobile Number is Required")]
         public string Mobile { get; set; }
 
         public byte IsActive {  get; set; }
