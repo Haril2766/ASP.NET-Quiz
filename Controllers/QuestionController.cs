@@ -3,6 +3,7 @@ using System.Data;
 using Microsoft.AspNetCore.Mvc;
 using QuizeManagement.Models;
 using static QuizeManagement.Models.UserModel;
+using OfficeOpenXml;
 
 
 namespace QuizeManagement.Controllers
@@ -181,5 +182,92 @@ namespace QuizeManagement.Controllers
             return RedirectToAction("QuestionList");
         }
         #endregion Question Delete
+
+        #region Execl Export
+
+        public IActionResult ExportToExcel()
+        {
+            try
+            {
+                ExcelPackage.LicenseContext = LicenseContext.NonCommercial; // Required for EPPlus
+
+                string connectionString = configuration.GetConnectionString("ConnectionString");
+
+                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                {
+                    sqlConnection.Open();
+
+                    using (SqlCommand sqlCommand = sqlConnection.CreateCommand())
+                    {
+                        sqlCommand.CommandType = CommandType.StoredProcedure;
+                        sqlCommand.CommandText = "PR_MST_Question_SelectAll"; // No parameters needed
+
+                        using (SqlDataReader sqlDataReader = sqlCommand.ExecuteReader())
+                        {
+                            DataTable data = new DataTable();
+                            data.Load(sqlDataReader);
+
+                            using (var package = new ExcelPackage())
+                            {
+                                var worksheet = package.Workbook.Worksheets.Add("QuizData");
+
+                                // Add headers
+                                worksheet.Cells[1, 2].Value = "QuestionID";
+                                worksheet.Cells[1, 3].Value = "QuestionText";
+                                worksheet.Cells[1, 4].Value = "OptionA";
+                                worksheet.Cells[1, 5].Value = "OptionB";
+                                worksheet.Cells[1, 6].Value = "OptionC";
+                                worksheet.Cells[1, 7].Value = "OptionD";
+                                worksheet.Cells[1, 8].Value = "CorrectOption";
+                                worksheet.Cells[1, 9].Value = "QuestionMarks";
+                                //worksheet.Cells[1, 10].Value = "IsActive";
+                                worksheet.Cells[1, 10].Value = "Created";
+                                worksheet.Cells[1, 11].Value = "Modified";
+                                worksheet.Cells[1, 12].Value = "QuestionLevel";
+                                worksheet.Cells[1, 13].Value = "UserName";
+
+                                // Add data
+                                int row = 2;
+                                foreach (DataRow item in data.Rows)
+                                {
+
+                                    worksheet.Cells[row, 2].Value = item["QuestionID"];
+                                    worksheet.Cells[row, 3].Value = item["QuestionText"];
+                                    worksheet.Cells[row, 4].Value = item["OptionA"];
+                                    worksheet.Cells[row, 5].Value = item["OptionB"];
+                                    worksheet.Cells[row, 6].Value = item["OptionC"];
+                                    worksheet.Cells[row, 7].Value = item["OptionD"];
+                                    worksheet.Cells[row, 8].Value = item["CorrectOption"];
+                                    worksheet.Cells[row, 9].Value = item["QuestionMarks"];
+                                    worksheet.Cells[row, 11].Value = Convert.ToDateTime(item["Created"]).ToString("yyyy-MM-dd");
+                                    worksheet.Cells[row, 12].Value = Convert.ToDateTime(item["Modified"]).ToString("yyyy-MM-dd");
+                                    worksheet.Cells[row, 13].Value = item["QuestionLevel"];
+                                    worksheet.Cells[row, 13].Value = item["UserName"];
+
+
+                                    row++;
+                                }
+
+                                // Convert package to stream
+                                var stream = new MemoryStream();
+                                package.SaveAs(stream);
+                                stream.Position = 0;
+
+                                string excelName = $"QuestionData-{DateTime.Now:yyyyMMddHHmmss}.xlsx";
+                                return File(stream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", excelName);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "Error exporting data: " + ex.Message;
+                return RedirectToAction("QuestionList");
+            }
+        }
+
+
+        #endregion Execl Export
     }
 }

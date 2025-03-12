@@ -139,7 +139,6 @@ namespace QuizeManagement.Controllers
 
         #region Execl Export
 
-
         public IActionResult ExportToExcel()
         {
             try
@@ -209,7 +208,7 @@ namespace QuizeManagement.Controllers
             catch (Exception ex)
             {
                 TempData["ErrorMessage"] = "Error exporting data: " + ex.Message;
-                return RedirectToAction("CityList");
+                return RedirectToAction("QuizList");
             }
         }
 

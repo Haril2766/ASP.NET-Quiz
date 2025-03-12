@@ -3,28 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\controllers\\quizwisequestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:controllers\\quizwisequestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\views\\quiz\\quizlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:views\\quiz\\quizlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\views\\quizwisequestion\\quizwisequestionaddtemp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:views\\quizwisequestion\\quizwisequestionaddtemp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\views\\quizwisequestion\\quizwisequestionadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:views\\quizwisequestion\\quizwisequestionadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\views\\userlogin\\userlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:views\\userlogin\\userlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\views\\users\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:views\\users\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\views\\question\\questionlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:views\\question\\questionlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\views\\quiz\\quizlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:views\\quiz\\quizlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\checkaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:checkaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\commonvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:commonvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\models\\quizmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:models\\quizmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|c:\\users\\parma\\desktop\\asp.net-quiz\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F56177A-5FB8-40D3-957D-28277EF88B16}|QuizeManagement.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,63 +86,230 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuizWiseQuestionAdd.cshtml",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\QuizWiseQuestion\\QuizWiseQuestionAdd.cshtml",
+              "RelativeDocumentMoniker": "Views\\QuizWiseQuestion\\QuizWiseQuestionAdd.cshtml",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\QuizWiseQuestion\\QuizWiseQuestionAdd.cshtml",
+              "RelativeToolTip": "Views\\QuizWiseQuestion\\QuizWiseQuestionAdd.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAKwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T12:35:23.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuizWiseQuestionAddTemp.cshtml",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\QuizWiseQuestion\\QuizWiseQuestionAddTemp.cshtml",
+              "RelativeDocumentMoniker": "Views\\QuizWiseQuestion\\QuizWiseQuestionAddTemp.cshtml",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\QuizWiseQuestion\\QuizWiseQuestionAddTemp.cshtml",
+              "RelativeToolTip": "Views\\QuizWiseQuestion\\QuizWiseQuestionAddTemp.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T12:33:14.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "QuizWiseQuestionController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Controllers\\QuizWiseQuestionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuizWiseQuestionController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Controllers\\QuizWiseQuestionController.cs",
+              "RelativeToolTip": "Controllers\\QuizWiseQuestionController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwEkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T12:32:30.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CheckAccess.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\CheckAccess.cs",
+              "RelativeDocumentMoniker": "CheckAccess.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\CheckAccess.cs",
+              "RelativeToolTip": "CheckAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T02:30:52.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CommonVariables.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\CommonVariables.cs",
+              "RelativeDocumentMoniker": "CommonVariables.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\CommonVariables.cs",
+              "RelativeToolTip": "CommonVariables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T02:30:36.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\Users\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Register.cshtml",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\Users\\Register.cshtml",
+              "RelativeToolTip": "Views\\Users\\Register.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T12:49:33.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T12:48:04.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\UserLogin\\UserLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserLogin\\UserLogin.cshtml",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\UserLogin\\UserLogin.cshtml",
+              "RelativeToolTip": "Views\\UserLogin\\UserLogin.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T12:37:16.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserLoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Models\\UserLoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserLoginModel.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Models\\UserLoginModel.cs",
+              "RelativeToolTip": "Models\\UserLoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T12:36:48.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserLoginController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Controllers\\UserLoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserLoginController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Controllers\\UserLoginController.cs",
+              "RelativeToolTip": "Controllers\\UserLoginController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwEUAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T12:36:24.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T12:20:57.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T12:31:19.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuestionList.cshtml",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\Question\\QuestionList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Question\\QuestionList.cshtml",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\Question\\QuestionList.cshtml",
+              "RelativeToolTip": "Views\\Question\\QuestionList.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T12:29:58.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuestionController.cs",
+              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "Controllers\\QuestionController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwLkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T12:21:12.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAJABAAAAAAAAAAAAAJYBAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-10T08:22:17.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "Models\\UserModel.cs",
               "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Models\\UserModel.cs",
               "RelativeToolTip": "Models\\UserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T08:18:38.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\Users\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Users\\Login.cshtml",
-              "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\Users\\Login.cshtml",
-              "RelativeToolTip": "Views\\Users\\Login.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwCkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-10T08:18:02.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "QuizList.cshtml",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\Quiz\\QuizList.cshtml",
               "RelativeDocumentMoniker": "Views\\Quiz\\QuizList.cshtml",
               "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Views\\Quiz\\QuizList.cshtml",
               "RelativeToolTip": "Views\\Quiz\\QuizList.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAADcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADgAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-10T08:05:22.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "QuizModel.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Models\\QuizModel.cs",
               "RelativeDocumentMoniker": "Models\\QuizModel.cs",
@@ -98,18 +317,17 @@
               "RelativeToolTip": "Models\\QuizModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T08:05:20.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T08:05:20.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "QuizController.cs",
               "DocumentMoniker": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Controllers\\QuizController.cs",
               "RelativeDocumentMoniker": "Controllers\\QuizController.cs",
               "ToolTip": "C:\\Users\\parma\\Desktop\\ASP.NET-Quiz\\Controllers\\QuizController.cs",
               "RelativeToolTip": "Controllers\\QuizController.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAIwMkAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwNcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T08:05:13.999Z",
               "EditorCaption": ""

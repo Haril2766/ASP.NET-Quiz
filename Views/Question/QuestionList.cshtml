@@ -56,9 +56,13 @@
                 <div class="card-header d-flex justify-content-between align-items-center">
                 <h5 class="card-title">Question List</h5>
                     <div class="d-flex p-3 justify-content-end">
-                        <a class="btn btn-success" id="addQuestionBtn" asp-controller="Question" asp-action="QuestionAddEdit">Add New Question</a>
-                    </div>
+                        <div>   
+                         <a class="btn btn-success" id="addQuestionBtn" asp-controller="Question" asp-action="QuestionAddEdit">Add New Question</a>
+                         <a asp-controller="Question" asp-action="ExportToExcel" class="btn btn-secondary">Download Excel</a>
+                        </div>
+                     </div>
                 </div>
+
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>

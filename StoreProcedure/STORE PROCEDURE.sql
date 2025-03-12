@@ -641,7 +641,34 @@ BEGIN
 END
 
 ------------------------------------------------------------------------------------------------
---model with data anomation
---Scroll
---add user
---user id
+--Store Procedure for MST_User Table Login
+Exec PR_MST_User_Login 'haril','xyz'
+CREATE OR ALTER PROC PR_MST_User_Login
+    @UserName  NVARCHAR(100),
+    @Password  NVARCHAR(100)
+AS
+BEGIN
+    IF NOT EXISTS (SELECT 1 FROM [dbo].[MST_User] WHERE [UserName] = @UserName)
+    BEGIN
+        SELECT 'Invalid Username' AS ErrorMessage;
+        RETURN;
+    END
+
+    IF NOT EXISTS (SELECT 1 FROM [dbo].[MST_User] WHERE [UserName] = @UserName AND [Password] = @Password)
+    BEGIN
+        SELECT 'Incorrect Password' AS ErrorMessage;
+        RETURN;
+    END
+
+    -- If both username and password are correct, return user details
+    SELECT 
+        [UserID],
+        [UserName],
+        [Mobile],
+        [Email]
+    FROM [dbo].[MST_User]
+    WHERE [UserName] = @UserName AND [Password] = @Password;
+END
+
+
+select * from MST_User
